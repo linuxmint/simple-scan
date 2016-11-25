@@ -1,0 +1,907 @@
+simple-scan (3.20.0-0ubuntu1) xenial; urgency=medium
+
+  * New upstream release:
+    - Fix window state saving with client side decorations
+
+ -- Robert Ancell <robert.ancell@canonical.com>  Mon, 21 Mar 2016 10:04:41 +1300
+
+simple-scan (3.19.91-0ubuntu1) xenial; urgency=medium
+
+  * New upstream release:
+    - Updated translations
+
+ -- Robert Ancell <robert.ancell@canonical.com>  Mon, 29 Feb 2016 09:54:22 +1300
+
+simple-scan (3.19.4-0ubuntu1) xenial; urgency=medium
+
+  * New upstream release:
+    - Updated translations  
+
+ -- Robert Ancell <robert.ancell@canonical.com>  Mon, 18 Jan 2016 16:19:39 +1300
+
+simple-scan (3.19.3-0ubuntu1) xenial; urgency=medium
+
+  * New upstream release:
+    - Fix typo in Epson website (LP: #1520229)
+    - Enable translations for help documentation  
+
+ -- Robert Ancell <robert.ancell@canonical.com>  Tue, 15 Dec 2015 10:08:24 +1300
+
+simple-scan (3.19.2-0ubuntu1) xenial; urgency=medium
+
+  * New upstream release:
+    - Make colord/packagekit support able to be explicitly disabled
+
+ -- Robert Ancell <robert.ancell@canonical.com>  Mon, 23 Nov 2015 10:31:46 +1300
+
+simple-scan (3.19.1-0ubuntu1) xenial; urgency=medium
+
+  * New upstream release:
+    - Add help about quality, brightness, contrast settings
+    - Fix help references to Wikipedia (currently just say Wiki)
+    - Fix SANE capability logging commas 
+
+ -- Robert Ancell <robert.ancell@canonical.com>  Tue, 27 Oct 2015 11:43:51 +1300
+
+simple-scan (3.18.1-0ubuntu1) wily; urgency=medium
+
+  * New upstream stable release:
+    - Make PackageKit support optional
+
+ -- Robert Ancell <robert.ancell@canonical.com>  Fri, 16 Oct 2015 10:26:23 +0100
+
+simple-scan (3.18.0-0ubuntu1) wily; urgency=medium
+
+  * New upstream release:
+    - Show error message when fail to install drivers
+    - Bump copyright dates  
+
+ -- Robert Ancell <robert.ancell@canonical.com>  Tue, 22 Sep 2015 08:09:21 +1200
+
+simple-scan (3.17.92-0ubuntu1) wily; urgency=medium
+
+  * New upstream release:
+    [ 3.17.91 ]
+    - Updated translations
+    [ 3.17.92 ]
+    - Correctly select the previous device after the device list is updated
+      (LP: #1485977)
+
+ -- Robert Ancell <robert.ancell@canonical.com>  Mon, 14 Sep 2015 09:18:39 +1200
+
+simple-scan (3.17.90-0ubuntu1) wily; urgency=medium
+
+  * New upstream release:
+    - Default to PDF when saving in all cases.
+    - Always show file format options and use a combo box to fit better into
+      dialog.
+    - Detect HP scanners and install drivers using PackageKit if found.
+    - If SANE detects no scanners but we see USB IDs of Brother, Epson or
+      Samsung scanners then prompt the user to go to their website to install
+      drivers.
+    - Use GUsb instead of GUdev.
+    - Fix error dialogs not showing.
+  * debian/control:
+    - Change build-depends from libgudev-1.0-dev to libgusb-dev
+    - Add build-depends on libpackagekit-glib2-dev
+
+ -- Robert Ancell <robert.ancell@canonical.com>  Mon, 17 Aug 2015 10:27:56 +1200
+
+simple-scan (3.17.4-0ubuntu1) wily; urgency=medium
+
+  * New upstream release
+
+ -- Robert Ancell <robert.ancell@canonical.com>  Mon, 20 Jul 2015 09:19:59 +1200
+
+simple-scan (3.17.3-0ubuntu1) wily; urgency=medium
+
+  * New upstream release:
+    - Stop using gnome-common, use autotools directly
+  * debian/control:
+    - Drop build-dependency on gnome-common
+    - Add build-dependency on automake, autoconf
+
+ -- Robert Ancell <robert.ancell@canonical.com>  Mon, 22 Jun 2015 13:07:30 +1200
+
+simple-scan (3.17.2-0ubuntu1) wily; urgency=medium
+
+  * New upstream release:
+    - Updated translations
+
+ -- Robert Ancell <robert.ancell@canonical.com>  Wed, 10 Jun 2015 14:02:47 +1200
+
+simple-scan (3.17.1.1-0ubuntu1) wily; urgency=medium
+
+  * New upstream release:
+    [ 3.17.1 ]
+    - Make appdata translatable and add screenshot
+    [ 3.17.1.1 ]
+    - Build appdata in a separate directory so it can have translations merged
+      in but gschemas do not.
+
+ -- Robert Ancell <robert.ancell@canonical.com>  Wed, 20 May 2015 15:56:59 +1200
+
+simple-scan (3.16.1.1-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release:
+    - Fix logic for adding blank page on page removal. (LP: #1442596)
+
+ -- Robert Ancell <robert.ancell@canonical.com>  Tue, 14 Apr 2015 12:00:15 +1200
+
+simple-scan (3.16.1-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release:
+    - Fix save button being inactive on pages restored after a crash
+      (LP: #1435794)
+
+ -- Robert Ancell <robert.ancell@canonical.com>  Mon, 13 Apr 2015 09:46:19 +1200
+
+simple-scan (3.16.0.1-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release:
+    - Rebuild package from scratch to fix invalid po/Makefile.in.in
+
+ -- Robert Ancell <robert.ancell@canonical.com>  Tue, 24 Mar 2015 15:36:49 +1300
+
+simple-scan (3.16.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release:
+    - Updated translations
+
+ -- Robert Ancell <robert.ancell@canonical.com>  Tue, 24 Mar 2015 09:56:11 +1300
+
+simple-scan (3.15.92-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release:
+    - Updated translations
+
+ -- Robert Ancell <robert.ancell@canonical.com>  Mon, 16 Mar 2015 09:58:10 +1300
+
+simple-scan (3.15.91-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release:
+    - Updated translations
+
+ -- Robert Ancell <robert.ancell@canonical.com>  Mon, 02 Mar 2015 11:03:31 +1300
+
+simple-scan (3.15.90-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release:
+    - Don't use GtkHeaderBar in LXDE, MATE
+
+ -- Robert Ancell <robert.ancell@canonical.com>  Mon, 16 Feb 2015 15:35:12 +1300
+
+simple-scan (3.15.4-1ubuntu1) vivid; urgency=low
+
+  * Merge from Debian unstable.  Remaining changes:
+    - debian/control:
+      + Drop Build-Depends on libjpeg-dev and libsqlite3-dev.
+    - debian/patches/01-zlib.patch:
+      + Dropped, zlib now has a pkg-config file.
+    - debian/source_simple-scan.py:
+      + Add more propietary driver packages to check versions on.
+
+ -- Artur Rona <ari-tczew@ubuntu.com>  Sat, 31 Jan 2015 19:28:56 +0100
+
+simple-scan (3.15.4-1) unstable; urgency=medium
+
+  * New upstream release.
+  * debian/patches:
+    - Remove 005-keywords_desktop.patch, applied upstream.
+    - Refresh 01-zlib.patch.
+  * debian/control:
+    - Change architecture to linux-any since simple-scan build-depends
+      on libgudev-1.0-dev which is part of the systemd source package.
+  * debian/rules:
+    - Remove old style hardening tags.
+    - Remove useless comments.
+  * debian/source/options:
+    - Removed because xz is now standard compression.
+
+ -- Jörg Frings-Fürst <debian@jff-webhosting.net>  Mon, 19 Jan 2015 12:45:02 +0100
+
+simple-scan (3.15.4-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release:
+    - Fix error where document was discarded if warning dialog was closed
+    - Use window decorations if running in Unity of XFCE, all others get the
+      headerbar
+    - Add GenericName to .desktop file
+    - Add some keywords in the .desktop file
+    - Initialize GTK+ after command line options are parsed
+
+ -- Robert Ancell <robert.ancell@canonical.com>  Mon, 19 Jan 2015 15:34:59 +1300
+
+simple-scan (3.15.3-1ubuntu1) vivid; urgency=low
+
+  * Merge from Debian unstable.  Remaining changes:
+    - debian/control:
+      + Drop Build-Depends on libjpeg-dev and libsqlite3-dev.
+      + Drop Depends on adwaita-icon-theme since it is in universe.
+    - debian/patches/01-zlib.patch:
+      + Dropped, zlib now has a pkg-config file.
+    - debian/source_simple-scan.py:
+      + Add more propietary driver packages to check versions on.
+
+ -- Artur Rona <ari-tczew@ubuntu.com>  Fri, 09 Jan 2015 11:52:25 +0100
+
+simple-scan (3.15.3-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Add year 2015 to debian/copyright.
+
+ -- Jörg Frings-Fürst <debian@jff-webhosting.net>  Mon, 05 Jan 2015 16:08:36 +0100
+
+simple-scan (3.15.2-1ubuntu1) vivid; urgency=low
+
+  * Merge from Debian unstable.  Remaining changes:
+    - debian/control:
+      + Drop Build-Depends on libjpeg-dev and libsqlite3-dev.
+      + Drop Depends on adwaita-icon-theme since it is in universe.
+    - debian/patches/01-zlib.patch:
+      + Dropped, zlib now has a pkg-config file.
+    - debian/source_simple-scan.py:
+      + Add more propietary driver packages to check versions on.
+
+ -- Artur Rona <ari-tczew@ubuntu.com>  Sat, 06 Dec 2014 23:42:29 +0100
+
+simple-scan (3.15.2-1) unstable; urgency=medium
+
+  * New upstream release.
+  * debian/control:
+    - Add libgdk-pixbuf2.0-dev (>=2.31.1) to
+      Build-Depends (Requested by upstream release).
+  * New debian/simple-scan.lintian-overrides:
+    - Override privacy-breach-generic false positives.
+      See Debian bug #762753.
+
+ -- Jörg Frings-Fürst <debian@jff-webhosting.net>  Mon, 01 Dec 2014 10:52:19 +0100
+
+simple-scan (3.15.2-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release:
+    - Store density information in bitmap formats (JPEG, PNG, TIFF).
+
+ -- Robert Ancell <robert.ancell@canonical.com>  Mon, 24 Nov 2014 09:29:30 +1300
+
+simple-scan (3.15.1-1ubuntu1) vivid; urgency=low
+
+  * Merge from Debian unstable. (LP: #1394899) Remaining changes:
+    - debian/control:
+      + Drop Build-Depends on libjpeg-dev and libsqlite3-dev.
+    - debian/patches/01-zlib.patch:
+      + Dropped, zlib now has a pkg-config file.
+    - debian/source_simple-scan.py:
+      + Add more propietary driver packages to check versions on.
+  * debian/control:
+    + Drop Depends on adwaita-icon-theme since it is in universe.
+
+ -- Artur Rona <ari-tczew@ubuntu.com>  Fri, 21 Nov 2014 10:07:42 +0100
+
+simple-scan (3.15.1-1) unstable; urgency=medium
+
+  * New upstream release:
+    - Updated translations.
+  * debian/simple-scan.bug-script:
+    - Correct typo. (Closes: #764700)
+  * debian/control:
+    - For missing icons gnome-icon-theme-symbolic removed
+      from Depends. (Closes: #761292)
+
+ -- Jörg Frings-Fürst <debian@jff-webhosting.net>  Tue, 28 Oct 2014 09:38:02 +0100
+
+simple-scan (3.14.0-1) unstable; urgency=medium
+
+  * New upstream release:
+    - Version bump.
+  * debian/control:
+    - Replace Depends gnome-icon-theme with
+      gnome-icon-theme-symbolic | adwaita-icon-theme
+      to display missing icons (Closes: #761292).
+      Thanks to Pascal Dormeau <pdormeau@free.fr>!
+    - Bump Standards-Version to 3.9.6 (no changes required).
+
+ -- Jörg Frings-Fürst <debian@jff-webhosting.net>  Wed, 24 Sep 2014 16:04:22 +0200
+
+simple-scan (3.14.0-0ubuntu1) utopic; urgency=medium
+
+  * New upstream release
+    [ 3.13.92 ]
+    - Updated translations
+    [ 3.14.0 ]
+    - No change version bump
+
+ -- Robert Ancell <robert.ancell@canonical.com>  Fri, 19 Sep 2014 12:27:01 +1200
+
+simple-scan (3.13.92-1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+    - Updated translations.
+
+ -- Jörg Frings-Fürst <debian@jff-webhosting.net>  Tue, 16 Sep 2014 11:38:05 +0200
+
+simple-scan (3.13.91-1) unstable; urgency=medium
+
+  * New upstream release.
+    - Updated translations.
+
+ -- Jörg Frings-Fürst <debian@jff-webhosting.net>  Sun, 31 Aug 2014 08:37:44 +0200
+
+simple-scan (3.13.91-0ubuntu1) utopic; urgency=medium
+
+  * New upstream release:
+    [ 3.13.90 ]
+    - Add non-standard option names for duplex scanning on HP And Brother scanners
+    [ 3.13.91 ]
+    - Updated translations
+
+ -- Robert Ancell <robert.ancell@canonical.com>  Tue, 02 Sep 2014 10:17:24 +1200
+
+simple-scan (3.13.90-1) unstable; urgency=medium
+
+  * New upstream release.
+  * debian/control:
+    - Change Vcs-Browser to cgit.
+  * New debian/patches/015-keywords_desktop.patch:
+    - Add missing Keywords entry to the .desktop file.
+
+ -- Jörg Frings-Fürst <debian@jff-webhosting.net>  Mon, 18 Aug 2014 19:42:34 +0200
+
+simple-scan (3.13.4.2-1) unstable; urgency=medium
+
+  * New maintainer (Closes: #720540).
+  * New upstream release:
+    - Refresh debian/patches/01-zlib.patch
+  * debian/control:
+    - Set myself as maintainer.
+    - Bump Standards-Version to 3.9.5 (no changes required).
+    - Update Build-Depends:
+      + valac <= 0.16 will be removed. Therefore change
+        valac release to >= 0.22 (Closes: #739167, #755204).
+      + Remove unused lsb-release (Closes: #737536).
+    - Add dbus-x11 to Depends for package simple-scan since simple-scan
+      needs dbus even on headless systems (Closes: #750392).
+    - Remove the upstream Vcs-Bzr.
+  * Add debian/source/options:
+    - Set compression to xz & compression-level to 9 to save space.
+  * Add debian/simple-scan.bug-script to automatically add logfiles to
+    bug reports.
+  * debian/copyright:
+    - Add myself to the list of authors for debian/*.
+    - Update copyright years for 2014.
+  * debian/rules:
+    - Enable hardening.
+    - Install NEWS as upstream changelog.
+
+ -- Jörg Frings-Fürst <debian@jff-webhosting.net>  Sat, 19 Jul 2014 11:08:59 +0200
+
+simple-scan (3.13.4.2-0ubuntu1) utopic; urgency=medium
+
+  * New upstream release:
+    [ 3.13.4.1 ]
+    - Don't access a variable after ownership is transferred - was breaking
+      scans
+    - Fix some UI objects not being accessed since GtkTemplate changes
+    - Correct method signature for delete-event
+    [ 3.13.4.2 ]
+    - Fix scan menu not working in toolbar
+    - Fix warning about button that was trying to set both a label and an image
+    - Stop warning when no autosave information
+
+ -- Robert Ancell <robert.ancell@canonical.com>  Tue, 22 Jul 2014 12:01:46 +1200
+
+simple-scan (3.13.4-0ubuntu1) utopic; urgency=medium
+
+  * New upstream release:
+    - Stop configure if vala not found
+    - Make conditions where traditional menubar is shown more contrained so it
+      shows in elementary
+    - Use GtkTemplate (requires Vala 0.22)
+  * debian/control:
+    - Bump build-depends on valac
+
+ -- Robert Ancell <robert.ancell@canonical.com>  Mon, 21 Jul 2014 16:11:44 +1200
+
+simple-scan (3.13.3-0ubuntu2) utopic; urgency=medium
+
+  * debian/source_simple-scan.py:
+    - Add more propietary driver packages to check versions on
+
+ -- Robert Ancell <robert.ancell@canonical.com>  Mon, 21 Jul 2014 09:38:01 +1200
+
+simple-scan (3.13.3-0ubuntu1) utopic; urgency=medium
+
+  * New upstream release:
+    - Use GtkHeaderbar on systems that support it
+
+ -- Robert Ancell <robert.ancell@canonical.com>  Mon, 23 Jun 2014 09:43:05 +1200
+
+simple-scan (3.13.1-0ubuntu2) utopic; urgency=medium
+
+  * No-change rebuild against new colord
+
+ -- Iain Lane <iain@orangesquash.org.uk>  Tue, 10 Jun 2014 11:36:48 +0100
+
+simple-scan (3.13.1-0ubuntu1) utopic; urgency=medium
+
+  * New upstream release:
+    - Correct generation of PDF trailer to conform to the PDF standard
+    - Add options to reorder pages
+
+ -- Robert Ancell <robert.ancell@canonical.com>  Mon, 28 Apr 2014 12:25:02 +1200
+
+simple-scan (3.12.0-1) unstable; urgency=low
+
+  * QA upload.
+  * Set Maintainer to Debian QA Group.
+  * New upstream release.
+  * Refresh patches.
+  * Drop build dependency on sqlite3, no longer needed.
+
+ -- Alessio Treglia <alessio@debian.org>  Thu, 10 Apr 2014 15:39:34 +0100
+
+simple-scan (3.12.0-0ubuntu1) trusty; urgency=medium
+
+  * New upstream release:
+    - Updated translations
+
+ -- Robert Ancell <robert.ancell@canonical.com>  Mon, 24 Mar 2014 10:14:09 +1300
+
+simple-scan (3.11.92-0ubuntu1) trusty; urgency=medium
+
+  * New upstream release:
+    - Updated translations
+
+ -- Robert Ancell <robert.ancell@canonical.com>  Tue, 18 Mar 2014 11:52:36 +1300
+
+simple-scan (3.11.91-0ubuntu1) trusty; urgency=medium
+
+  * New upstream release:
+    - Updated translations
+
+ -- Robert Ancell <robert.ancell@canonical.com>  Tue, 04 Mar 2014 12:05:46 +1300
+
+simple-scan (3.11.5-0ubuntu1) trusty; urgency=medium
+
+  * New upstream release:
+    - Only update gsettings when they change. Move application state from
+      gsettings to ~/.cache
+
+ -- Robert Ancell <robert.ancell@canonical.com>  Tue, 04 Feb 2014 10:40:08 +0000
+
+simple-scan (3.11.4-0ubuntu1) trusty; urgency=medium
+
+  * New upstream release:
+    - Use AppMenu in GNOME Shell
+  * debian/control:
+    - Update standards version
+
+ -- Robert Ancell <robert.ancell@canonical.com>  Mon, 13 Jan 2014 09:37:47 +1300
+
+simple-scan (3.11.3-0ubuntu1) trusty; urgency=medium
+
+  * New upstream release:
+    - Remove deprecated Gtk.Stock items and Gtk widgets (GtkVBox, GtkTable, GtkHButtonBox)
+    - Stop using sqlite package
+    - Update .ui file to work with recent Glade version
+
+ -- Robert Ancell <robert.ancell@canonical.com>  Wed, 18 Dec 2013 12:08:46 +1300
+
+simple-scan (3.11.1.1-0ubuntu1) trusty; urgency=low
+
+  * New upstream release:
+    - Fix regression where quality and contrast can be reset to minimum
+      (LP: #1248253)
+    - Install missing help images (LP: #1211148)
+    - Mark autosaved books as needs saving
+
+ -- Robert Ancell <robert.ancell@canonical.com>  Wed, 06 Nov 2013 20:37:03 +1300
+
+simple-scan (3.11.1-0ubuntu1) trusty; urgency=low
+
+  * New upstream release:
+    - Fix page size not being applied on some drivers
+    - Rewrite autosaving. Now uses files for scan data, is more efficient in
+      writing to disk and drops dependency on sqlite.
+  * debian/control:
+    - Drop build-depends on libsqlite3-dev
+
+ -- Robert Ancell <robert.ancell@canonical.com>  Fri, 01 Nov 2013 11:51:48 -0700
+
+simple-scan (3.10.0-1) unstable; urgency=low
+
+  * New upstream release.
+  * Refresh patches.
+  * Build-depend on libsqlite3-dev.
+  * Update debian/watch as latest release is being published as XZ file.
+
+ -- Alessio Treglia <alessio@debian.org>  Sat, 05 Oct 2013 15:33:01 +0100
+
+simple-scan (3.10.0-0ubuntu1) saucy; urgency=low
+
+  * New upstream release:
+    - Fix --fix-pdf not working due to attempting to treat binary data as UTF-8
+
+ -- Robert Ancell <robert.ancell@canonical.com>  Wed, 25 Sep 2013 17:53:51 +1200
+
+simple-scan (3.9.90-0ubuntu1) saucy; urgency=low
+
+  * New upstream release:
+    - Only autosave after a timeout (LP: #1121169)
+
+ -- Robert Ancell <robert.ancell@canonical.com>  Sun, 25 Aug 2013 15:41:57 +1200
+
+simple-scan (3.9.4.1-0ubuntu1) saucy; urgency=low
+
+  * New upstream release:
+    [ 3.9.4.1 ]
+    - Add missing gresource file to tarball
+    [ 3.9.4 ]
+    - Add support for Samsung devices that don't use the standard SANE
+      field names (LP: #892915)
+    [ 3.9.3 ]
+    - Update README to mention git mirror
+    - Hide C warnings
+    - Compile with Vala debugging information
+    [ 3.9.2 ]
+    - Force an extension when saving if one not provided
+    - Zero pad numbering when saving multiple files
+    - Add JPEG quality settings
+    - Set ICC profile and density units for JPEG files
+    - Use gdk-pixbuf instead of libjpeg when writing PDF files
+    [ 3.9.1 ]
+    - Add copy to clipboard function
+    - Compile UI files into binary
+    - Update build instructions
+  * debian/control:
+    - Drop build-depends on libjpeg-dev
+  * debian/watch:
+    - Update now releases are .xz
+
+ -- Robert Ancell <robert.ancell@canonical.com>  Thu, 18 Jul 2013 16:56:35 +1200
+
+simple-scan (3.8.0-0ubuntu2) saucy; urgency=low
+
+  * debian/control:
+    - Build-depend on valac instead of valac-0.16 for easier transitions 
+
+ -- Jeremy Bicha <jbicha@ubuntu.com>  Sun, 26 May 2013 10:41:38 -0400
+
+simple-scan (3.8.0-0ubuntu1) saucy; urgency=low
+
+  * New upstream release (LP: #1181896)
+    - Autosave document and restore on quit
+    - Add controls for brightness and contrast (LP: #669820)
+    - Fix scan no longer working after an ADF scan completes
+    - Use GLib 2.32 threading API
+    - Fix erroneous warning about failing to set ADF source
+    - Updated help
+    - Simplify build system
+  * debian/patches/01-zlib.patch: Dropped, zlib now has a pkg-config file
+  * debian/control:
+    - Added libsqlite3-dev as a dependency
+    - glib dependency now requires >= 2.32
+
+ -- Matthew Fischer <matthew.fischer@canonical.com>  Sun, 19 May 2013 20:02:39 -0600
+
+simple-scan (3.6.1-1) unstable; urgency=low
+
+  * Upload to unstable.
+  * New upstream release:
+    - Fix scan no longer working after an ADF scan completes.
+    - Fix erroneous warning about failing to set ADF source.
+
+ -- Alessio Treglia <alessio@debian.org>  Mon, 13 May 2013 08:59:05 +0100
+
+simple-scan (3.6.1-0ubuntu1) raring; urgency=low
+
+  * New upstream bugfix release:
+    - Fix scan no longer working after an ADF scan completes (LP: #1097096)
+    - Fix erroneous warning about failing to set ADF source
+
+ -- Robert Ancell <robert.ancell@canonical.com>  Fri, 22 Mar 2013 09:24:50 +1300
+
+simple-scan (3.6.0-2) experimental; urgency=low
+
+  * Drop build-depend on gconf2. (Closes: #698251)
+  * Use dh_autoreconf instead of calling autoreconf before the configure.
+  * Properly purge the symlink to gnome-doc-utils.make once the build's
+    completed.
+
+ -- Alessio Treglia <alessio@debian.org>  Wed, 16 Jan 2013 00:03:37 +0000
+
+simple-scan (3.6.0-1) experimental; urgency=low
+
+  * New upstream release.
+  * Add -DBG package. (Closes: #687213)
+  * Fix Vcs tags.
+  * Bump debhelper compatibility.
+  * Bump Standards.
+
+ -- Alessio Treglia <alessio@debian.org>  Tue, 15 Jan 2013 00:51:40 +0000
+
+simple-scan (3.4.2-1) unstable; urgency=low
+
+  * New upstream bugfix release.
+  * Remove 02-file-filter-labels.patch, applied upstream.
+  * Generate with Vala 0.16. (Closes: #675664)
+  * Enable hardening flags.
+
+ -- Alessio Treglia <alessio@debian.org>  Sun, 03 Jun 2012 01:01:58 +0200
+
+simple-scan (3.4.1-3) unstable; urgency=low
+
+  * Drop 20-lpi.patch as launchpad-integration has been removed from Ubuntu.
+    Thanks to Jeremy Bicha for the great work. (Closes: #673780)
+
+ -- Alessio Treglia <alessio@debian.org>  Mon, 21 May 2012 14:48:40 +0200
+
+simple-scan (3.4.1-2) unstable; urgency=low
+
+  * Fix save dialog filter incorrect names. Thanks to Jeremy Bicha
+    for reporting this. (Closes: #673593) (LP: #876135)
+
+ -- Alessio Treglia <alessio@debian.org>  Mon, 21 May 2012 01:33:47 +0200
+
+simple-scan (3.4.1-1) unstable; urgency=low
+
+  * New upstream bugfix release.
+  * Install apport file on Debian systems too.
+
+ -- Alessio Treglia <alessio@debian.org>  Fri, 20 Apr 2012 12:08:03 +0200
+
+simple-scan (3.4.0-1) unstable; urgency=low
+
+  * New upstream release.
+  * Refresh patches.
+  * Build-dep on libcolord-dev.
+  * Replace gnome-doc-utils build-dependency with yelp-tool.
+  * Update debian/watch.
+  * Refresh debian/copyright.
+  * Bump Standards.
+
+ -- Alessio Treglia <alessio@debian.org>  Wed, 04 Apr 2012 21:14:45 +0200
+
+simple-scan (3.2.1-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Alessio Treglia <alessio@debian.org>  Wed, 07 Dec 2011 12:49:05 +0100
+
+simple-scan (3.2.0-1) unstable; urgency=low
+
+  * Upload to unstable.
+  * New upstream release
+  * Fix watch file.
+
+ -- Alessio Treglia <alessio@debian.org>  Fri, 07 Oct 2011 18:14:05 +0200
+
+simple-scan (3.1.5-1) experimental; urgency=low
+
+  * New upstream release:
+    - Fix compile warnings
+    - Port to Vala
+    - Port to GTK3
+    - Port to GDBus
+    - Port to GSettings
+    - Port to colord
+  * debian/control:
+    - Port build-deps to Vala.
+  * Refresh patches.
+  * debian/watch: Look for *.bz2 tarballs.
+
+ -- Alessio Treglia <alessio@debian.org>  Tue, 30 Aug 2011 12:58:27 +0200
+
+simple-scan (2.32.0.2-2) unstable; urgency=low
+
+  * Build-depend on libjpeg-dev instead of libjpeg62-dev (Closes: #634633).
+  * Bump Standards.
+
+ -- Alessio Treglia <alessio@debian.org>  Tue, 19 Jul 2011 13:14:46 +0200
+
+simple-scan (2.32.0.2-1) unstable; urgency=low
+
+  * New upstream release:
+    - Add binary comment as recommended in PDF spec.
+    - Add comments about other PDF/A features.
+    - Update translations.
+  * debian/gbp.conf: Set compression to bzip2.
+  * Add debian/source/local-options file.
+
+ -- Alessio Treglia <alessio@debian.org>  Thu, 21 Apr 2011 16:38:02 +0200
+
+simple-scan (2.32.0.1-2) unstable; urgency=low
+
+  * Upload to unstable.
+  * Set 3.0 (quilt) as packaging definitive format.
+  * Handle distribution specific patches.
+  * Revert previous changes in debian/rules,
+    Ubuntu-specific patches are now properly handled.
+  * Build with scour for SVG optimization.
+  * Build-depend on autotools-dev.
+  * On Ubuntu, install the apport package hook.
+
+ -- Alessio Treglia <alessio@debian.org>  Wed, 16 Mar 2011 12:50:20 +0100
+
+simple-scan (2.32.0.1-1) experimental; urgency=low
+
+  * New upstream release.
+  * Update debian/gbp.conf.
+
+ -- Alessio Treglia <alessio@debian.org>  Tue, 26 Oct 2010 17:18:13 +0200
+
+simple-scan (2.32.0-1) experimental; urgency=low
+
+  * New upstream release.
+  * Add Vcs-Bzr field to make Robert Ancell happy.
+  * Switch back to format 1.0
+  * Change tarball compression.
+
+ -- Alessio Treglia <alessio@debian.org>  Thu, 30 Sep 2010 11:21:17 +0200
+
+simple-scan (2.31.91-1) experimental; urgency=low
+
+  * Imported Upstream version 2.31.91
+  * Refresh 01_lpi.patch.
+
+ -- Alessio Treglia <alessio@debian.org>  Tue, 31 Aug 2010 01:03:07 +0200
+
+simple-scan (2.31.90.2-1) unstable; urgency=low
+
+  * New upstream bugfix release.
+
+ -- Alessio Treglia <alessio@debian.org>  Tue, 17 Aug 2010 11:02:56 +0200
+
+simple-scan (2.31.90.1-1) unstable; urgency=low
+
+  * New upstream release.
+  * Remove DMUA field.
+  * Update Standards to 3.9.1.
+  * Drop Recommends on imagemagick.
+  * Build-Depends on zlib2g-dev, libjpeg62-dev.
+  * Update watch file.
+  * Refresh 01_lpi.patch patch.
+  * Switch to 3.0 (quilt) format.
+  * Add debian/gbp.conf,.gitignore files.
+  * Update changelog.
+  * Fix debian/control.
+  * Install gnome-doc-utils.make.
+  * Add zlib patch.
+  * debian/gbp.conf: Set tarball compression to bzip2.
+  * Change my email address.
+
+ -- Alessio Treglia <alessio@debian.org>  Sun, 15 Aug 2010 12:45:16 +0200
+
+simple-scan (2.31.1-1) unstable; urgency=low
+
+  * New upstream release.
+  * All patches have been applied upstream.
+  * debian/source_simple-scan.py: Sync with Ubuntu.
+
+ -- Alessio Treglia <quadrispro@ubuntu.com>  Thu, 13 May 2010 20:42:09 +0200
+
+simple-scan (1.0.3-1) unstable; urgency=low
+
+  * New upstream release.
+    - Set resolution on ImageMagick generated PDFs (LP: #564106).
+  * debian/patches/10-set_supported_flags.patch:
+    - Set duplex and batch-scan flags if supported by driver (LP: #566759).
+  * Set format to 1.0.
+
+ -- Alessio Treglia <quadrispro@ubuntu.com>  Thu, 22 Apr 2010 15:18:11 +0200
+
+simple-scan (1.0.2-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Alessio Treglia <quadrispro@ubuntu.com>  Fri, 16 Apr 2010 17:45:41 +0200
+
+simple-scan (1.0.0-2) unstable; urgency=low
+
+  * debian/control: Revert last change of Build-Depends field, the previous
+    situation was preferable and even correct (Closes: #577821).
+
+ -- Alessio Treglia <quadrispro@ubuntu.com>  Wed, 14 Apr 2010 23:55:43 +0200
+
+simple-scan (1.0.0-1) unstable; urgency=low
+
+  * New upstream stable release.
+  * debian/rules:
+    - Call intltool-update to generate a PO template (LP: #551470).
+  * Drop debian/patches/11_thunderbird_workaround.patch patch, applied
+    upstream.
+  * Refresh 01_lpi.patch patch.
+  * debian/control:
+    - udev is not available on kfreebsd-*,hurd architectures.
+    - Add Vcs-{Git,Browser} tags.
+
+ -- Alessio Treglia <quadrispro@ubuntu.com>  Wed, 14 Apr 2010 12:54:33 +0200
+
+simple-scan (0.9.10-1) unstable; urgency=low
+
+  * New upstream release.
+  * debian/control:
+    - Build-depend on libdbus-glib-1-dev.
+    - Recommend imagemagick.
+  * debian/patches/11_thunderbird_workaround.patch:
+    - Workaround Thunderbird/Icedove mail bug.
+
+ -- Alessio Treglia <quadrispro@ubuntu.com>  Fri, 09 Apr 2010 12:41:39 +0200
+
+simple-scan (0.9.9-1) unstable; urgency=low
+
+  * New upstream release.
+  * Refresh patches.
+
+ -- Alessio Treglia <quadrispro@ubuntu.com>  Mon, 15 Mar 2010 17:32:51 +0100
+
+simple-scan (0.9.7-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Alessio Treglia <quadrispro@ubuntu.com>  Tue, 09 Mar 2010 07:25:04 +0100
+
+simple-scan (0.9.6-1) unstable; urgency=low
+
+  * New upstream release.
+  * debian/rules: Call autoreconf before calling the configure script.
+  * Bump versioned build-dep on debhelper.
+  * Remove 99_autotools.patch.
+  * Build-Depends on gnome-common.
+
+ -- Alessio Treglia <quadrispro@ubuntu.com>  Mon, 08 Mar 2010 14:58:35 +0100
+
+simple-scan (0.9.5-1) unstable; urgency=low
+
+  * New upstream release.
+  * Include apport hook without installing it in order to mimize the delta
+    between Debian and Ubuntu.
+  * Add README.source to document how-to patch the sources.
+
+ -- Alessio Treglia <quadrispro@ubuntu.com>  Thu, 18 Feb 2010 11:38:37 +0100
+
+simple-scan (0.9.3-1) unstable; urgency=low
+
+  * New upstream release.
+  * Bump standards.
+  * Build-depend on libgudev-1.0-dev,gnome-doc-utils.
+  * Drop manpages from the packaging, upstream now provides them.
+  * Add quilt support.
+  * Provide ubuntu-specific patches without applying them in order to
+    minimze the delta.
+
+ -- Alessio Treglia <quadrispro@ubuntu.com>  Tue, 16 Feb 2010 00:46:46 +0100
+
+simple-scan (0.8.1-3) unstable; urgency=low
+
+  * Append --as-needed to LDFLAGS to avoid excessive dependencies;
+    thanks to Martin Pitt for reporting this (LP: #512048).
+
+ -- Alessio Treglia <quadrispro@ubuntu.com>  Mon, 25 Jan 2010 00:49:34 +0100
+
+simple-scan (0.8.1-2) unstable; urgency=low
+
+  * Update debian/copyright.
+  * debian/control:
+    - No need to build-depend on debhelper >= 7.0.50.
+
+ -- Alessio Treglia <quadrispro@ubuntu.com>  Wed, 20 Jan 2010 11:26:17 +0100
+
+simple-scan (0.8.1-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Alessio Treglia <quadrispro@ubuntu.com>  Wed, 20 Jan 2010 10:59:36 +0100
+
+simple-scan (0.8.0-1) unstable; urgency=low
+
+  * New upstream release.
+  * Allow DM uploads.
+
+ -- Alessio Treglia <quadrispro@ubuntu.com>  Wed, 23 Dec 2009 11:26:30 +0100
+
+simple-scan (0.7.6-1) unstable; urgency=low
+
+  * Initial release (Closes: #561790).
+
+ -- Alessio Treglia <quadrispro@ubuntu.com>  Mon, 21 Dec 2009 00:31:16 +0100

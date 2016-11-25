@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="email" xml:lang="ru">
+
+    <info>
+        <link type="guide" xref="index#use"/>
+    </info>
+  
+	<title>Отправка по электронной почте</title>
+
+    <p>Для отправки текущего документа используйте меню <guiseq><gui>Документ</gui><gui>Отправить по электронной почте</gui></guiseq> (<keyseq><key>Ctrl</key><key>E</key></keyseq>). В вашей почтовой программе будет создано новое сообщение, содержащее отсканированный документ в виде вложения.</p>
+    <p>
+    If the document type was set to "Text" the email will have a PDF attachment for each page. 
+    Conversely, if the document type was set to "Photo", the email will have a JPEG
+    attachment for each page.    
+    </p>
+    <p>Смотрите <link xref="save"/> для дополнительных сведений о форматах файлов.</p>
+</page>

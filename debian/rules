@@ -1,0 +1,47 @@
+#!/usr/bin/make -f
+
+#
+# 2014-07-22 Jörg Frings-Fürst <debian@jff-webhosting.net>
+#
+# - enable hardening
+# - install NEWS as upstream changelog
+#
+# 2015-01-19 Jörg Frings-Fürst <debian@jff-webhosting.net>
+#
+# - remove old style hardening.
+# - remove useless comments.
+
+#
+# Hardening
+#
+export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+
+%:
+	dh $@ --with=autoreconf,scour
+
+# Fixes FTBFS
+override_dh_auto_test:
+
+# Autoreconf due to 01_lpi.patch
+override_dh_autoreconf:
+	[ -e gnome-doc-utils.make ] || \
+	ln -s /usr/share/gnome-doc-utils/gnome-doc-utils.make
+	dh_autoreconf
+
+override_dh_auto_clean:
+	dh_auto_clean
+	[ ! -h gnome-doc-utils.make ] || \
+	rm gnome-doc-utils.make
+
+override_dh_auto_build:
+	cd po; intltool-update -p
+	dh_auto_build
+
+override_dh_strip:
+	dh_strip -psimple-scan --dbg-package=simple-scan-dbg
+
+override_dh_installdocs:
+	dh_installdocs --link-doc=simple-scan
+
+override_dh_installchangelogs:
+	dh_installchangelogs NEWS

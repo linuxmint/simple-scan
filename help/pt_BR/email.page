@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="email" xml:lang="pt-BR">
+
+    <info>
+        <link type="guide" xref="index#use"/>
+    </info>
+  
+	<title>Enviando por e-mail</title>
+
+    <p>Para enviar o documento atual por e-mail, utilize o menu <guiseq><gui>Documento</gui><gui>E-mail</gui></guiseq> (<keyseq><key>Ctrl</key><key>E</key></keyseq>). O seu programa de e-mail será aberto com uma nova mensagem contendo o documento digitalizado como anexo.</p>
+    <p>
+    If the document type was set to "Text" the email will have a PDF attachment for each page. 
+    Conversely, if the document type was set to "Photo", the email will have a JPEG
+    attachment for each page.    
+    </p>
+    <p>Consulte <link xref="save"/> para mais informações sobre formatos de arquivos.</p>
+</page>

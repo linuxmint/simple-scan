@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="email" xml:lang="hu">
+
+    <info>
+        <link type="guide" xref="index#use"/>
+    </info>
+  
+	<title>Küldés e-mailben</title>
+
+    <p>Az aktuális dokumentum e-mailben történő elküldéséhez használja a <guiseq><gui>Dokumentum</gui><gui>E-mail</gui></guiseq> menüpontot vagy a <keyseq><key>Ctrl</key><key>E</key></keyseq> billentyűkombinációt. Az e-mail programja megnyílik egy új üzenettel, amelyhez csatolva lesz a beolvasott dokumentum.</p>
+    <p>
+    If the document type was set to "Text" the email will have a PDF attachment for each page. 
+    Conversely, if the document type was set to "Photo", the email will have a JPEG
+    attachment for each page.    
+    </p>
+    <p>A fájlformátumokkal kapcsolatban további információkért lásd a <link xref="save"/> oldalt.</p>
+</page>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="email" xml:lang="bg">
+
+    <info>
+        <link type="guide" xref="index#use"/>
+    </info>
+  
+	<title>Изпращане чрез имейл</title>
+
+    <p>За да изпратите текущия документ по електронна поща, използвайте менюто <guiseq><gui>Документ</gui><gui>Електронна поща</gui></guiseq> (<keyseq><key>Ctrl</key><key>Е</key></keyseq>). Вашата програма за електронна поща ще бъде отворена със заредено ново съобщение, съдържащо сканирания документ като прикрепен файл.</p>
+    <p>
+    If the document type was set to "Text" the email will have a PDF attachment for each page. 
+    Conversely, if the document type was set to "Photo", the email will have a JPEG
+    attachment for each page.    
+    </p>
+    <p>Вижте <link xref="save"/> за повече информация относно файловите формати.</p>
+</page>

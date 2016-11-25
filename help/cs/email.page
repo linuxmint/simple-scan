@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="email" xml:lang="cs">
+
+    <info>
+        <link type="guide" xref="index#use"/>
+    </info>
+  
+	<title>Odeslání emailem</title>
+
+    <p>Pro odeslání stávajícího dokumentu emailem použijte nabídku <guiseq><gui>Dokument</gui><gui>E-mail</gui></guiseq> (<keyseq><key>Ctrl</key><key>E</key></keyseq>). Emailový program otevře novou zprávu s naskenovaným dokumentem v příloze.</p>
+    <p>
+    If the document type was set to "Text" the email will have a PDF attachment for each page. 
+    Conversely, if the document type was set to "Photo", the email will have a JPEG
+    attachment for each page.    
+    </p>
+    <p>Pro více informací o souborových formátech navštivte <link xref="save"/>.</p>
+</page>

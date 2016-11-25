@@ -1,0 +1,3 @@
+debian/source_simple-scan.py usr/share/apport/package-hooks/
+usr/bin
+usr/share

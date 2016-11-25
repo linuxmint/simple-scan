@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="email" xml:lang="uk">
+
+    <info>
+        <link type="guide" xref="index#use"/>
+    </info>
+  
+	<title>Надсилання зображень електронною поштою</title>
+
+    <p>Щоб надіслати поточний документ електронною поштою, скористайтеся пунктом меню <guiseq><gui>Документ</gui><gui>Надіслати ел. поштою</gui></guiseq> (<keyseq><key>Ctrl</key><key>E</key></keyseq>). У відповідь на вибір цього пункту меню буде запущено типову програму для роботи з електронною поштою. До нового повідомлення буде одразу долучено сканований документ.</p>
+    <p>
+    If the document type was set to "Text" the email will have a PDF attachment for each page. 
+    Conversely, if the document type was set to "Photo", the email will have a JPEG
+    attachment for each page.    
+    </p>
+    <p>Докладніші дані щодо форматів файлів викладено у розділі <link xref="save"/>.</p>
+</page>

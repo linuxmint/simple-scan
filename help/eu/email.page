@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="email" xml:lang="eu">
+
+    <info>
+        <link type="guide" xref="index#use"/>
+    </info>
+  
+	<title>Postaz bidaltzea</title>
+
+    <p>Uneko dokumentua postaz bidaltzeko, erabili <guiseq><gui>Dokumentua</gui><gui>Posta</gui></guiseq> menua (<keyseq><key>Ctrl</key><key>E</key></keyseq>). Posta elektronikoko zure programa irekiko da, eskaneatutako dokumentua erantsita duen mezu berri bat erakutsiz.</p>
+    <p>
+    If the document type was set to "Text" the email will have a PDF attachment for each page. 
+    Conversely, if the document type was set to "Photo", the email will have a JPEG
+    attachment for each page.    
+    </p>
+    <p>Ikus <link xref="save"/> fitxategi-formatuei buruzko informazio gehiagorako.</p>
+</page>

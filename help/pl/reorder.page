@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="reorder" xml:lang="pl">
+
+    <info>
+        <link type="guide" xref="index#modify"/>
+    </info>
+  
+	<title>Zmiana kolejności stron</title>
+
+    <p>
+    To move a page, right click on it and choose <gui><em>Move Left</em></gui> or 
+    <gui><em>Move Right</em></gui>.
+    </p> 
+    
+    <p>
+    Alternatively, you can move a page by first selecting it and then choosing 
+    <gui><em>Move Left</em></gui> or <gui><em>Move Right</em></gui> from the "Page" menu.
+    </p> 
+
+</page>
